@@ -26,3 +26,8 @@ Repositório de código para o Live Coding do dia 24/09/2021.
 #### Acessando pelo browser
 
 https://<meu_dominio>.cloudfront.net/index.html
+
+#### Configurando a página ```index.html``` como default
+
+- CloudFront Console -> selecionar a distribuição criada -> General -> Settings -> Edit
+- Default root object - optional [index.html]
