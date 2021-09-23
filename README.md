@@ -31,3 +31,11 @@ https://<meu_dominio>.cloudfront.net/index.html
 
 - CloudFront Console -> selecionar a distribuição criada -> General -> Settings -> Edit
 - Default root object - optional [index.html]
+
+### Configurações Extras
+
+#### Configurando páginas de erro
+
+- CloudFront Console -> selecionar a distribuição criada -> Error pages -> Create custom error response
+- HTTP error code [403]
+- Customize error response -> Response page path [/404.html] -> HTTP Response code [404 Not found]
